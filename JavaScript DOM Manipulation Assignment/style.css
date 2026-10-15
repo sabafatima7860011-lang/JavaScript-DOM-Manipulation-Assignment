@@ -1,0 +1,72 @@
+/* style.css */
+
+/* General page layout and typography */
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    line-height: 1.6;
+    color: #67b3e6;
+    background-color: #353b3b;
+}
+
+/* Section styling */
+section {
+    background-color: #1b1f1b;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #e40808;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Headings and paragraphs */
+h1 {
+    color: #19dbae;
+    font-size: 1.8rem;
+}
+
+p {
+    font-size: 1rem;
+    margin: 8px 0;
+}
+
+/* Buttons */
+button {
+    background-color: #758189;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-right: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.95rem;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Dynamic Table Styling (for Task 7) */
+table {
+    margin-top: 15px;
+    border-collapse: collapse;
+    width: 50%;
+    background-color: #9aa097;
+}
+
+table, th, td {
+    border: 1px solid #1a6116;
+    padding: 12px;
+    text-align: center;
+}
+
+td {
+    font-weight: bold;
+    color: #11c6ee;
+}
+
+img {
+    width: 250px;
+    height: auto; /* Keeps the proper aspect ratio */
+    border-radius: 8px;
+}
